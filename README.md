@@ -4,7 +4,7 @@
 
 VetPlayas website is one of my project last 2013 about veterinary. The site has an existing template about the pet care but I was about to change as well the template from scratch with the help of some colleagues who has the ability to build site. I uploaded here the front-end using HTML5 and CSS3. I didn't used any framework about mobile responsive because this applicable only for web browsers. 
 
-###Roles
+###People Involved
 
 #####Developers
 - Jose Nino N. Garcia - Team Leader

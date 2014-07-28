@@ -1,0 +1,782 @@
+/*
+	Author: Jose Nino Garcia
+	Date Created: November 10, 2013
+	Project Name: Vetplayas Website
+*/
+
+* html, body
+{
+	padding:0;
+	margin:0;
+	background:url('../images/sitebackground.png');
+	font-family: Arial;
+	font-size: 12px;
+}
+
+@font-face
+{
+	font-family:Open Sans;
+	src: url('../fonts/OpenSans-ExtraBold.ttf'), url('../fonts/OpenSans-ExtraBold.eot');
+	
+}
+
+@font-face
+{
+	font-family:Open Sans Thin;
+	src: url('../fonts/OpenSans-Regular.ttf'), url('../fonts/OpenSans-Regular.eot');
+	
+}
+
+#sitecontainer
+{
+	width:950px;
+	margin:0 auto;
+}
+
+.clear
+{
+	clear:both;
+}
+
+
+/*-- WESITE HEADER --*/
+.siteheader
+{
+
+}
+
+.language_selection
+{
+	clear:both;
+}
+
+.language_selection ul
+{
+	list-style: none;
+	float:right;
+}
+
+.language_selection ul li
+{
+	float:left;
+	margin-left:5px;
+	color:#ffffff;
+}
+
+.language_selection ul li img
+{
+	cursor: pointer;
+}
+
+.logoportion
+{
+	float:left;
+}
+
+.contactdetails
+{
+	float:right;
+}
+
+.logoportion ul
+{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+.logoportion ul li
+{
+	float:left;
+	margin-left:10px;
+}
+
+span.fLogo
+{
+	display: block;
+	color:#ffffff;
+	font-weight: bold;
+	font-size:25px;
+	margin-top:10px;	
+}
+
+span.sLogo
+{
+	display:block;
+	color:#ffffff;
+	font-weight: bold;
+	font-size:30px;
+}
+
+.contactdetails ul
+{
+	list-style: none;
+	padding:0;
+	margin-top:15px;
+}
+
+.contactdetails ul li
+{
+	color:#ffffff;
+	margin-top:5px;
+	font-size: 13px;
+	font-family:Open Sans;
+}
+
+img.leftImage
+{
+	float:left;
+}
+
+span.leftLabel
+{
+	float:left;
+	color:#ffffff;
+	margin-left:5px;
+	margin-top:3px;
+}
+
+.regconbold
+{
+	font-weight: bold;
+}
+
+/*--  WEBSITE NAVIGATION --*/
+
+.nav
+{
+	background-image:url('../images/menu.png');
+	background-repeat: repeat-x;
+	width:100%;
+	height:39px;
+}
+
+
+
+.nav ul
+{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+.nav ul li
+{
+	float:left;
+	line-height: 39px;
+	padding-left:33px;
+	padding-right:33px;
+	cursor: pointer;
+}
+
+.nav ul li:last-child
+{
+	border:none;
+}
+
+.nav ul li a
+{
+	text-decoration:none;
+	color:#ffffff;
+	font-weight:100;
+	font-family:Open Sans Thin;
+}
+
+.nav ul li:hover
+{
+	background-color: #690d03;
+	height:38px;
+	color:#ffffff;
+}
+
+.current
+{
+	background-color: #690d03;
+	height:37px;
+	color:#ffffff;
+}
+
+/*-- MAIN CONTAINER --*/
+
+.theSlider
+{
+
+}
+
+.slider
+{
+	width:100%;	
+	margin-top:-1px;
+}
+
+.slider ul
+{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+.maincontainer
+{
+	background:#ffffff;
+	padding:10px;
+	margin-top:-3px;
+	border-top:5px solid #3e0303;
+	border-bottom:2px solid #873606;
+	margin-bottom:15px;
+}
+
+.maincontainer_ordinary
+{
+	background:#ffffff;
+	padding:10px;
+	margin-top:-1px;
+	border-bottom:2px solid #873606;
+	margin-bottom:15px;
+}
+
+.boxescontainers
+{
+	margin-top:15px;
+}
+
+.boxesmain
+{
+	background-color:#3b0f0f;
+	height:190px;
+	width:270px;
+	padding:5px;
+	float:left;
+	margin-left:23px;
+	border-radius:5px;
+}
+
+span.boxtitle
+{
+	background-color:#6c2222;
+	padding:5px;
+	width:96%;
+	display: block;
+	color:#ffffff;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.boxesmain p
+{
+	color:#ffffff;
+	font-size:14px;
+	line-height: 18px;
+	font-family: Open Sans Thin;
+}
+
+.boxesmain p img
+{
+	padding-right:5px;
+}
+
+/*-- MAIN CONTENTS --*/
+
+.sitecontents
+{
+	margin-top:10px;
+}
+
+.contactdetails_body
+{
+	width:270px;
+	border:1px solid #c5c0c0;
+	padding:5px;
+	float:left;
+	margin-left:22px;
+	border-radius:15px;
+	height:420px;
+}
+
+.rightparagraph
+{
+	float:right;
+	background:;
+	padding:5px;
+	width:570px;
+	margin-right:22px;
+}
+
+.rightparagraph table
+{
+	font-family:Open Sans Thin;
+	font-size:13px;
+	margin-top:20px;
+}
+
+.rightparagraph table td:first-child
+{
+	vertical-align:middle;
+	text-align: right;
+}
+
+.rightparagraph table td textarea
+{
+	width:250px;
+	height:100px;
+	border:2px solid #6d0404;
+	font-family: Open Sans Thin;
+	font-size:12px;
+}
+
+.rightparagraph table td.msg
+{
+	vertical-align: text-top;
+}
+
+.contactdetails_body h3
+{
+	color:#3f0303;
+	font-size:25px;
+	font-weight:bolder;
+	padding:0;
+	margin:0;
+	font-family: Open Sans;
+}
+
+.contactdetails_body h2
+{
+	color:#3f0303;
+	font-size:20px;
+	font-weight:bolder;
+	padding:0;
+	margin:0;
+	font-family: Open Sans;
+}
+
+p.first_paragraph
+{
+	color:#3f0303;
+	font-family:Open Sans Thin;
+	font-size:14px;
+}
+
+p.first_paragraph img
+{
+	vertical-align: middle;
+}
+
+p.second_paragraph
+{
+	color:#3f0303;
+	font-family:Open Sans Thin;
+	font-size:14px;
+	padding:0;
+	margin:0;
+}
+
+.rightparagraph h1
+{
+	font-family:Open Sans;
+	color:#040404;
+	font-size:28px;
+}
+
+.rightparagraph h4
+{
+	font-family:Open Sans;
+	color:#040404;
+	font-size:15px;
+}
+
+.rightparagraph p
+{
+	color:#040404;
+	font-size:13px;
+	font-family: Open Sans Thin;
+}
+
+img.content_image
+{
+	border:1px solid #490404;
+	border-radius: 5px;
+	margin-left:5px;
+}
+
+/* ---- SLIDER ---- */
+
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	*zoom: 1;
+
+}
+
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+	margin-top:-20px;
+}
+
+.bx-wrapper .bx-viewport {
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+}
+
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+.bx-wrapper .bx-pager {
+	float:left;
+	margin-left:620px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #666;
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 20px 0px 40px 7px;
+	outline: 0;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #e41e26;
+}
+
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(images/controls.png) no-repeat 0 -32px;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url(images/controls.png) no-repeat -43px -32px;
+}
+
+.bx-wrapper .bx-prev:hover {
+	background-position: 0 0;
+}
+
+.bx-wrapper .bx-next:hover {
+	background-position: -43px 0;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	outline: 0;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+	z-index: 9999;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url(images/controls.png) -86px -11px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url(images/controls.png) -86px -44px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 10%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
+
+/* ---- FOOTER ---- */
+
+.footer
+{
+	margin-bottom:10px;
+	margin-left:-5px;
+}
+
+.footer ul
+{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+.footer ul li
+{
+	float:left;
+	border-right:1px solid #ffffff;
+	padding-right:5px;
+	padding-left:5px;
+}
+
+.footer ul li:last-child
+{
+	border:none;
+}
+
+.footer ul li a
+{
+	color:#ffffff;
+	text-decoration: none;
+	font-family:Open Sans Thin;
+	font-size:11px;
+}
+
+.footer ul li a:hover
+{
+	color:#eab025;
+	text-decoration: underline;
+}
+
+.footer p
+{
+	margin:0;
+	padding:0;
+	color:#ffffff;
+	font-family:Open Sans Thin;
+	font-size:11px;
+	margin-left:5px;
+}
+
+.buttonSliders
+{
+	position:absolute;
+	z-index: 1000;
+	margin-left:10px;
+	margin-top:40px;
+}
+
+.buttonSliders ul
+{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.buttonSliders ul li
+{
+	margin-top:15px;
+	position: relative;
+}
+
+.buttonSliders ul li a
+{
+	display:block;
+	background-image:url('../images/sliderbutton.jpg');
+	height:50px;
+	width:200px;
+	text-align:center;
+	border-radius:15px;
+	color:#ffffff;
+	font-family:Open Sans;
+	text-decoration: none; 
+	line-height: 45px;
+	border:2px solid #975807;
+	font-size:14px;
+}
+
+.buttonSliders ul li a:hover
+{
+	background: #ac3333;
+}
+
+.buttonSliders ul li img
+{
+	position:absolute;
+	margin-left:5px;
+	margin-top:3px;
+}
+
+/*---- NEW BOXES ----*/
+
+.boxes_ordinary
+{
+	background-color:#3b0f0f;
+	height:190px;
+	width:270px;
+	padding:5px;
+	margin-left:23px;
+	border-radius:5px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+.boxes_ordinary p
+{
+	color:#ffffff;
+	font-size:14px;
+	line-height: 18px;
+	font-family: Open Sans Thin;
+}
+
+.boxes_ordinary p img
+{
+	padding-right:5px;
+}
+
+.ordinary_left
+{
+	float:left;
+}
+
+.contentline
+{
+	font-size: 13px;
+	font-family: Open Sans Thin;
+}
+
+.slide-out-div
+ {
+     padding: 20px;
+     width: 250px;
+     background: #ccc;
+     border: 1px solid #29216d;
+     z-index:9000;
+     font-family: Open Sans Thin;
+     font-size:13px;
+}   
+
+.ourstaff
+{
+	margin-top:100px;
+}
+
+.staffimage
+{
+	float:left;
+}
+
+.staffdetails
+{
+	float:left;
+	margin-left:10px;
+}
+
+.stafficon
+{
+	border-radius:10px;
+	border:3px solid #29216d;
+}
+
+.staffdetails h3
+{
+	font-family: Open Sans;
+	margin:0;
+	padding:0;
+}
+
+.staffdetails h4
+{
+	font-family: Open Sans Thin;
+	margin:0;
+	padding:0;
+	font-size:11px;
+}
+
+.staffdetails h5
+{
+	font-family: Open Sans Thin;
+	margin:0;
+	padding:0;
+	font-style: italic;
+	font-size:14px;
+}
+
+.gallerypage
+{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+.gallerypage li
+{
+	float:left;
+	margin-left:30px;
+	margin-top:10px;
+}
+
+.gallerypage li a img
+{
+	border:2px solid #970000;
+	border-radius:15px;
+}
+
+.txtfield
+{
+	border:2px solid #6d0404;
+	height:25px;
+	width:250px;
+	font-size:13px; 
+	font-family: Open Sans Thin;	
+}
